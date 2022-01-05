@@ -38,11 +38,14 @@ body{
     border-radius: 5px;
 }
 .bg-sec{
-   background-image: url(./images/bg-1.png);
+  
    background-repeat: no-repeat;
    margin-top: 0px;
    height: 500px;
    width: auto;
+   background-image: url(./images/bg-1.png);
+
+   
 }
 .hello-dev{
     width: 60%;
@@ -54,6 +57,7 @@ body{
     text-align: center;
     font-size: 40px;
     margin-top: 120px;
+    
 }
 .hello-dev p{
     text-align: center;
@@ -81,10 +85,8 @@ body{
 }
 
 .button:hover{
-    background-color: blueviolet;
-    border-bottom: 5px solid orangered;
-    border-right: 5px solid red;
-    border-radius: 5px;
+    background-color:#305A72 ;
+    border-top:5px solid orangered;
     font-weight: bold;
 }
 .skill-sec{
