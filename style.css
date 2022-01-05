@@ -31,6 +31,12 @@ body{
     color: white;
     font-weight: bold;
 }
+.menu-bar ul li a:hover{
+    border-bottom: 2px solid orangered;
+    border-right: 2px solid blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+}
 .bg-sec{
    background-image: url(./images/bg-1.png);
    background-repeat: no-repeat;
@@ -72,6 +78,14 @@ body{
     border-radius: 3px;
     cursor: pointer;
     color: white;
+}
+
+.button:hover{
+    background-color: blueviolet;
+    border-bottom: 5px solid orangered;
+    border-right: 5px solid red;
+    border-radius: 5px;
+    font-weight: bold;
 }
 .skill-sec{
     background-color: #101010;
@@ -127,6 +141,13 @@ body{
     padding: 10px;
     color: white;
 }
+.portfolio-header ul li a:hover{
+    border-bottom: 2px solid orangered;
+    border-right: 2px solid blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 .image-galary{
     width: 90%;
     display: flex;
@@ -199,6 +220,10 @@ body{
     margin-top: 50px;
     font-weight: bold;
     
+}
+#more-watch-button:hover{
+    background-color:#305A72 ;
+    border-top:5px solid orangered;
 }
 
 .contact{
@@ -301,3 +326,27 @@ body{
   ::-ms-input-placeholder { /* Microsoft Edge */
    color: white;
   }
+  .social{
+      width: 60%;
+      margin: 0 auto;
+  }
+.social-heading h2{
+    color: white;
+   text-align: center;
+}
+.social .social-icon{
+   margin-left: 230px;
+}
+.social-icon img:hover{
+    box-shadow: 3px 5px 10px orangered;
+}
+footer{
+    background-color: black;
+    height: 50px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+}
