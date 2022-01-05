@@ -9,11 +9,14 @@ body{
 .parents{
     display: flex;
     width: 80%;
-    border: 2px solid red;
     margin: 0 auto;
 }
 .logo{
     width: 50%;
+}
+.logo img{
+    width: auto;
+    height:50px;
 }
 .menu-bar{
     width: 50%;
@@ -69,4 +72,38 @@ body{
     border-radius: 3px;
     cursor: pointer;
     color: white;
+}
+.skill-sec{
+    background-color: #101010;
+}
+.skill-parrents{
+    display: flex;
+    width: 40%;
+    margin-left: 450px;
+    padding: 20px;
+}
+.time{
+    margin-bottom: -20px;
+}
+.skill-image-heding{
+    display: flex;
+    margin-top:30px;
+    
+}
+.skill-image-heding img{
+    height: auto;
+    width: 50px;
+}
+.skill-image-heding h3{
+    display: inline;
+    color: white;
+    margin-left: 20px;
+}
+.skill-paragarapgh{
+ color: white;
+ margin-left: 10px;
+ margin-right: 30px;
+}
+.smart{
+    margin-top: -40px;
 }
